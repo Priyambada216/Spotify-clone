@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Delicious+Handrawn&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+
+  color: white;
+  font-family: DM sans;
+}
+
+.sidebars {
+  background: rgba(0, 0, 0, 1);
+  width: 371.8px;
+  hight: 982px;
+}
+#logo {
+  padding-left: 35.82px;
+  padding-top: 39.29px;
+}
+.sidebars-topnav {
+  justify-content: space-around;
+  width: 347.1px;
+  height: 170.46px;
+  padding-top: 39.29px;
+  padding-left: 12.35px;
+  border-radius: 6px;
+}
+.sidebars-middlenav {
+    width: 209.99px;
+height: 160.58px;
+padding-top: 39.29px;
+padding-left: 37.06px;
+
+}
+.M {
+    width: 130.93px;
+height: 30.88px;
+padding-left: 40.76px;
+justify-content: left;
+align-items: center;
+}
+.M>a{
+    padding-left: ;
+}
