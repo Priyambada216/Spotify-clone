@@ -15,6 +15,7 @@ body {
 }
 .sidebar .logo img{
  width: 130px !important;
+ padding-left: 10px;
 }
 
 .sidebar .navigation ul{
@@ -23,23 +24,61 @@ body {
   padding-left: 0px;
 }
 .sidebar .navigation ul li{
-  padding: 10px 0px !important;
+  padding: 10px 10px !important;
 }
-.sidebar .navigation ul li a{
+.sidebar .navigation ul li a, .text{
   color:rgba(255, 255, 255, 1) !important;
   text-decoration: none;
   font-weight: bold;
   font-size: 13px;
 }
 .sidebar .navigation ul li a img{
+  
   padding-right: 15px;
 }
-.sidebar .navigation ul:hover,
-.sidebar .navigation ul:active,
-.sidebar .navigation ul:visited
-{
+.install-app {
+  padding-left: 10px;
+}
+.install-app img{
+  padding-right: 12px;
+}
+.sidebar .navigation ul .page:hover {
   width: 200px;
   height: 50px;
   border-radius: 6px;
   background-color: #282828;
+}
+.main-container {
+  margin-left: 245px;
+  margin-bottom: 100px;
+  background: linear-gradient(180deg, #222222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0) 100%);
+
+}
+.main-container .topbar .prev-next-buttons button{
+  background-color: transparent;
+  border: none;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 10px;
+}
+.dowpdown {
+  width: 158px;
+  height: 41px;
+  border-radius: 33px;
+  background-color: rgba(0, 0, 0, 1);
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.dowpdown select {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-weight: 700;
+  font-size: 15px;
+}
+.dowpdown select option{
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
 }
